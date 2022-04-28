@@ -1,5 +1,7 @@
 # tarefas-servidor
 
+![](docs/js-ponta-a-ponta.png)
+
 ## Configuração
 
 ### Node 
