@@ -1,4 +1,4 @@
-# tarefas-servidor
+# tarefas-ts
 
 ![](docs/js-ponta-a-ponta.png)
 
@@ -53,7 +53,7 @@ npm i
 Subir o servidor:
 
 ```sh
-node server
+npm start
 ```
 
 Acessar http://localhost:3000
