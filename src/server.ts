@@ -1,12 +1,14 @@
+import { Request, Response } from "express";
+
 const express = require('express');
 const app = express();
-const { MongoClient } = require('mongodb');
 
+const { MongoClient } = require('mongodb');
 const client = new MongoClient('mongodb://localhost:27017');
 
-app.use(express.static('public'));
+app.use(express.static('dist/public'));
 
-app.get('/tarefas', async (req, res) => {
+app.get('/tarefas', async (req: Request, res: Response) => {
 
     try {
 
